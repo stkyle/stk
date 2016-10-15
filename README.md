@@ -7,3 +7,5 @@
 - cmder http://cmder.net/ 1.3.1 https://github.com/cmderdev/cmder/releases/download/1.3.1/cmder.zip
 - git-win https://git-scm.com 2.10.1 https://github.com/git-for-windows/git/releases/download/v2.10.1.windows.1/PortableGit-2.10.1-64-bit.7z.exe x64
 - sysinternals https://technet.microsoft.com/en-us/bb842062 0 https://download.sysinternals.com/files/SysinternalsSuite.zip
+- centos https://www.centos.org/download/ 7 http://mirror.math.princeton.edu/pub/centos/7/isos/x86_64/CentOS-7-x86_64-Everything-1511.iso
+- kali-linux https://www.kali.org/ 2016.2 http://cdimage.kali.org/kali-2016.2/kali-linux-2016.2-amd64.iso
