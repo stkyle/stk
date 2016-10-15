@@ -12,3 +12,4 @@
 - winpcap http://www.winpcap.org/default.htm 4.1.3 http://www.winpcap.org/install/bin/WinPcap_4_1_3.exe
 - winpcap-sdk http://www.winpcap.org/devel.htm 4.1.2 http://www.winpcap.org/install/bin/WpdPack_4_1_2.zip
 - cuckoo https://cuckoosandbox.org/ 1.2 https://github.com/cuckoosandbox/cuckoo/archive/1.2.zip
+- volatility 2.5 http://downloads.volatilityfoundation.org/releases/2.5/volatility_2.5.win.standalone.zip
