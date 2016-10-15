@@ -4,4 +4,5 @@
 - python https://www.python.org/downloads/ 2.7.12 https://www.python.org/ftp/python/2.7.12/python-2.7.12.msi x32
 - python https://www.python.org/downloads/ 2.7.12 https://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64.msi x64
 - python_help https://www.python.org/downloads/ 2.7.12 https://www.python.org/ftp/python/2.7.12/python2712.chm
-
+- cmder http://cmder.net/ 1.3.1 https://github.com/cmderdev/cmder/releases/download/1.3.1/cmder.zip
+- git-win https://git-scm.com 2.10.1 https://github.com/git-for-windows/git/releases/download/v2.10.1.windows.1/PortableGit-2.10.1-64-bit.7z.exe x64
