@@ -9,3 +9,6 @@
 - sysinternals https://technet.microsoft.com/en-us/bb842062 0 https://download.sysinternals.com/files/SysinternalsSuite.zip
 - centos https://www.centos.org/download/ 7 http://mirror.math.princeton.edu/pub/centos/7/isos/x86_64/CentOS-7-x86_64-Everything-1511.iso
 - kali-linux https://www.kali.org/ 2016.2 http://cdimage.kali.org/kali-2016.2/kali-linux-2016.2-amd64.iso
+- winpcap http://www.winpcap.org/default.htm 4.1.3 http://www.winpcap.org/install/bin/WinPcap_4_1_3.exe
+- winpcap-sdk http://www.winpcap.org/devel.htm 4.1.2 http://www.winpcap.org/install/bin/WpdPack_4_1_2.zip
+- cuckoo https://cuckoosandbox.org/ 1.2 https://github.com/cuckoosandbox/cuckoo/archive/1.2.zip
