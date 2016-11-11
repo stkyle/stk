@@ -4,6 +4,12 @@ import sys as _sys
 import os as _os
 import shutil as _shutil
 import inspect as _inspect
+import platform as _platform
+
+WINDOWS = _platform.system().lower() == 'windows'
+LINUX = _platform.system().lower() == 'linux'
+PY2 = _sys.version_info.major == 2
+PY3 = _sys.version_info.major == 3
 
 
 def import_by_name(name, path=None):
