@@ -1,15 +1,1 @@
-- target url_home version url_download arch
-- nodejs https://nodejs.org/en/ 4.6.0 https://nodejs.org/dist/v4.6.0/win-x64/node.exe x64
-- notepad++ https://notepad-plus-plus.org/ 7.0 https://notepad-plus-plus.org/repository/7.x/7.0/npp.7.bin.zip x32
-- python https://www.python.org/downloads/ 2.7.12 https://www.python.org/ftp/python/2.7.12/python-2.7.12.msi x32
-- python https://www.python.org/downloads/ 2.7.12 https://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64.msi x64
-- python_help https://www.python.org/downloads/ 2.7.12 https://www.python.org/ftp/python/2.7.12/python2712.chm
-- cmder http://cmder.net/ 1.3.1 https://github.com/cmderdev/cmder/releases/download/1.3.1/cmder.zip
-- git-win https://git-scm.com 2.10.1 https://github.com/git-for-windows/git/releases/download/v2.10.1.windows.1/PortableGit-2.10.1-64-bit.7z.exe x64
-- sysinternals https://technet.microsoft.com/en-us/bb842062 0 https://download.sysinternals.com/files/SysinternalsSuite.zip
-- centos https://www.centos.org/download/ 7 http://mirror.math.princeton.edu/pub/centos/7/isos/x86_64/CentOS-7-x86_64-Everything-1511.iso
-- kali-linux https://www.kali.org/ 2016.2 http://cdimage.kali.org/kali-2016.2/kali-linux-2016.2-amd64.iso
-- winpcap http://www.winpcap.org/default.htm 4.1.3 http://www.winpcap.org/install/bin/WinPcap_4_1_3.exe
-- winpcap-sdk http://www.winpcap.org/devel.htm 4.1.2 http://www.winpcap.org/install/bin/WpdPack_4_1_2.zip
-- cuckoo https://cuckoosandbox.org/ 1.2 https://github.com/cuckoosandbox/cuckoo/archive/1.2.zip
-- volatility 2.5 http://downloads.volatilityfoundation.org/releases/2.5/volatility_2.5.win.standalone.zip
+Python System Toolkit (stk)
