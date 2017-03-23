@@ -7,8 +7,8 @@ Vocabulary
 **match**: the piece of text (or byte sequence) that corresponds to a pattern  
 **meta token**: xyz  
 **groups**: xyz  
-**character classes**: bracket syntax [xyz], matches one of several characters
-**quantifiers**: *applied* to expressions or groups
+**character classes**: bracket syntax [xyz], matches one of several characters  
+**quantifiers**: *applied* to expressions or groups  
 **special tokens**: xyz  
 **escaped characters**: xyz  
 **anchors**: Anchors do not match any characters. They match a position.  
@@ -28,7 +28,7 @@ In basic regular expressions the metacharacters "?", "+", "{", "|", "(", and ")"
 
 
 | Metacharacter | Description  |
-| ------------- |              |
+| ------------- | ------------- |
 | `\d`          |              |
 | `\w`          |              |
 | `\W`          |              |
