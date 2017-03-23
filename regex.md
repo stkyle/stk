@@ -1,15 +1,75 @@
-
-Regex to validate: `hel055!sdsdJKHJ@#%&_-=()$+.?*`:
-
-```
-(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\!\@\#\$\%\^\&\\\\*\\\\(\\\\)\_\+\\\-\=\\\\.\\\\?])(?!.*[\`\~\\\\[\\\\]\\\\{\\\\}\'\;\:\/\>\<\,])[A-Za-z\d\!\@\#\$\%\^\&\\\\*\\\\(\\\\)\_\+\\\-\=\\\\.\\\\?]{15,32}
-```
-
-Sample:  hel055!sdsdJKHJ@#%&_-=()$+.?*
-
-
 Regex Notes
 ===========
+
+Vocabulary
+----------
+**pattern**: xyz  
+**match**: the piece of text (or byte sequence) that corresponds to a pattern  
+**meta token**: xyz  
+**groups**: xyz  
+**character classes**: bracket syntax [xyz], matches one of several characters
+**quantifiers**: *applied* to expressions or groups
+**special tokens**: xyz  
+**escaped characters**: xyz  
+**anchors**: Anchors do not match any characters. They match a position.  
+**alternation**: the regexn equivalent of "or"  
+**backreference**: xyz  
+**lookaround**: xyz  
+
+
+Types of regular expressions: 
+* **Basic**: used by grep and sed
+* **Extended**: used by egrep, awk, perl
+
+
+**Metacharacters** are the building blocks of regular expressions. Characters in RegEx are understood to be either a metacharacter with a special meaning or a regular character with a literal meaning.
+
+
+| Metacharacter | Description  |
+| ------------- |              |
+| `\d`          |              |
+| `\w`          |              |
+| `\W`          |              |
+| `[a-z]`          |              |
+| `[0-9]`          |              |
+| `(abc)`          |              |
+| `.*`          |              |
+| `+`          |              |
+
+
+Normal String matches
+----------------------
+`.` matches any single character  
+`[abt]` matches one character only: either a or b or t and nothing else  
+`[a-z]` matches one character only: either a to z and nothing else  
+`[^A-Z]` matches one character only: any character but NOT A to Z  
+`(hallo)` matches the word 'hallo' as one Item (an atom). Normally used for repeats.  
+
+
+Empty String matches
+----------------------
+`^`  matches the beginning of a line  
+`$`  matches the end of a line  
+`\<` matches the beginning of a word  
+`\>` matches the end of a word  
+`\b` matches either the beginning or end of a word  
+`\B` matches NOT the beginning or end of a word  
+
+
+Item Repetitions
+----------------------
+(item = character or an atom) Note: use \{....\} for grep & {....} for egrep  
+`?` The preceding item is optional and matched at most once.  
+`*` The preceding item will be matched zero or more times.  
+`+` The preceding item will be matched one or more times.  
+`{n}` The preceding item is matched exactly n times.  
+`{n,}` The preceding item is matched n or more times.  
+`{n,m}` The preceding item is matched at least n times, but not more than m times  
+
+
+**Quantifiers** are used to indicate the scope of a search string. You can use multiple quantifiers in your search string.
+
+
 
 wildcard, which is represented by the . (dot) metacharacter. overrides the matching of the period character
 Qualifiers: star "*", plus "+", repetition "{m,n}", and the question mark "?"
