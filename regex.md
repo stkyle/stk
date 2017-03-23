@@ -17,7 +17,9 @@ Vocabulary
 **lookaround**: xyz  
 
 
-Types of regular expressions: 
+Types of regular expressions
+-----------------------------
+In basic regular expressions the metacharacters "?", "+", "{", "|", "(", and ")" lose their special meaning; instead use the backslashed versions "\?", "\+", "\{", "\|", "\(", and "\)".
 * **Basic**: used by grep and sed
 * **Extended**: used by egrep, awk, perl
 
