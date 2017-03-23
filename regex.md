@@ -3,7 +3,7 @@ Regex Notes
 
 Vocabulary
 ----------
-**pattern**: xyz  
+**pattern**: sequence of tokens  
 **match**: the piece of text (or byte sequence) that corresponds to a pattern  
 **meta token**: xyz  
 **groups**: xyz  
