@@ -20,9 +20,22 @@ char(?)
 
 Characters that must be escaped
 --------------------------------
- - char '+'
- - char '.'
- - char '?'
+These special characters are often called *"metacharacters"*:
+  1. char(  '\'  )
+  2. char(  '^'  )
+  3. char(  '$'  )
+  4. char(  '.'  )
+  5. char(  '|'  )
+  6. char(  '?'  )
+  7. char(  '*'  )
+  8. char(  '+'  )
+  9. char(  '('  )
+  10. char( ')'  )
+  11. char( '['  )
+  12. char( '{'  )
+  
+The 12 characters with special meanings: the backslash \, the caret ^, the dollar sign $, the period or dot ., the vertical bar or pipe symbol |, the question mark ?, the asterisk or star *, the plus sign +, the opening parenthesis (, the closing parenthesis ), the opening square bracket [, and the opening curly brace {, These special characters are often called "metacharacters". 
+
 
 Matching
 -------------
