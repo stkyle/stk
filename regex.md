@@ -21,18 +21,21 @@ char(?)
 Characters that must be escaped
 --------------------------------
 These special characters are often called *"metacharacters"*:
-  1. char(  '\'  )
-  2. char(  '^'  )
-  3. char(  '$'  )
-  4. char(  '.'  )
-  5. char(  '|'  )
-  6. char(  '?'  )
-  7. char(  '*'  )
-  8. char(  '+'  )
-  9. char(  '('  )
-  10. char( ')'  )
-  11. char( '['  )
-  12. char( '{'  )
+
+|   | char  |                     |
+|---|-------|---------------------|
+|1. |  `\`  | backslash           |
+|2. |  `^`  | carat               |
+|3. |  `$`  | dollar sign         |
+|4. |  `.`  | dot                 |
+|5. |  `|`  | pipe                |
+|6. |  `?`  | question mark       |
+|7. |  `*`  | star                |
+|8. |  `+`  | plus                |
+|9. |  `(`   | open paren          |
+|10.|  `)`   | close paren         |
+|11.|  `[`   | open square bracket |
+|12.|  `{`   | open curly brace    |
   
 The 12 characters with special meanings: the backslash \, the caret ^, the dollar sign $, the period or dot ., the vertical bar or pipe symbol |, the question mark ?, the asterisk or star *, the plus sign +, the opening parenthesis (, the closing parenthesis ), the opening square bracket [, and the opening curly brace {, These special characters are often called "metacharacters". 
 
