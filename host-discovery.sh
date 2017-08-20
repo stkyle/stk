@@ -28,6 +28,8 @@ Enumeration:
 General Enumeration:
 
 nmap -vv -Pn -A -sC -sS -T 4 -p- 10.0.0.1
+nmap -sP $TARGET | grep ' for ' | awk '{print $5}' 
+
 Web Enumeration:
 
 dirb http://10.0.0.1 /usr/share/wordlists/dirb/common.txt
