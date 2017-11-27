@@ -98,12 +98,21 @@ int main (void)
   /* Set up the key and iv. Do I need to say to not hard code these in a
    * real application? :-)
    */
-    int npubk = 1;
+    int npubk = 1; /* number of pub keys used to encrypt blob */
+    
+    /* allocate memory for encrypted key array*/
     unsigned char **ek = (unsigned char **)malloc(sizeof(unsigned char *) * npubk);
+    
+    /* allocate mem for key length array */
     int *ekl = (int *)malloc(sizeof(int) * npubk);
+    
+    /* allocate me for aes initial value (16 bytes) */
     unsigned char iv[16];
 
+    /* buffer to contain PEM encoded pub key once deserialized */
     char *buffer = NULL;
+    
+    
     /* Message to be encrypted */
     unsigned char *plaintext =
                 (unsigned char *)"The quick brown fox jumps over the lazy dog";
