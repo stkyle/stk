@@ -22,3 +22,9 @@ def flatten_dict(ddict):
     k,v = get_keys(ddict)
     d = dict(zip(k,v))
     return d
+
+test_dict = {'a': {'aa': {'aa': 42}}}
+test_dict['b'] = {'bb': [{'bl':12}, {'bbl': 23}]}
+test_dict['c'] = set([1,2,3])
+test_dict[42] = {'f': {}}
+
